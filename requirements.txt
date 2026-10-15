@@ -1,0 +1,19 @@
+# Backend API and local server
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pydantic>=2.9,<3
+
+# Local model client, tokenization and vector database
+# Ollama itself must be installed separately; this is its Python client.
+ollama>=0.6,<1
+transformers>=4.49,<6
+chromadb>=1,<2
+
+# Document parsing: DOCX, PDF, ODT and RTF (TXT uses the standard library)
+python-docx>=1.1,<2
+pypdf>=5,<7
+odfpy>=1.4.1,<2
+striprtf>=0.0.26,<1
+
+# DataFrame results returned by ChromaDBManager.get_query_from_db()
+pandas>=2.2,<4

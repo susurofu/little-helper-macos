@@ -1,0 +1,10 @@
+{
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "vecrorizer": "text-embedding-ada-002",
+    "local_llm_engine": "ollama",
+    "local_llm_model": "qwen3.5:4b",
+    "local_llm_context_window": 4096,
+    "rag_context_size": 2048,
+    "rag_folder_path": "/Users/artemsuslov/Downloads"
+}
